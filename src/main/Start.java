@@ -3,6 +3,7 @@ package main;
 import DataStreams.DataStreams;
 import ScanFormat.ScanStat;
 import byteStreams.FunStreams;
+import objectStream.ObjectStreams;
 import sysConsole.funConsole;
 
 public class Start {
@@ -29,6 +30,9 @@ public class Start {
 			break;
 		case "dataStreams":
 			DataStreams.run();
+			break;
+		case "objStreams":
+			ObjectStreams.run();
 			break;
 			
 		default:
